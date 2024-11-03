@@ -2,5 +2,5 @@ SERVER:
 1)g++ chat.cpp -o server -lws2_32
 2)./server.exe
 CLIENT:
-1)g++ client.cpp -o client -lws2_32
+1)g++ client.cpp -o client -lws2_32 -lMsftedit -lgdi32
 2)./client.exe
